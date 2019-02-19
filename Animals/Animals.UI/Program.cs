@@ -1,6 +1,7 @@
 ﻿using System;
+using Animals.library;
 
-namespace Animals.UI
+namespace Animals.library
 {
     class Program
     {

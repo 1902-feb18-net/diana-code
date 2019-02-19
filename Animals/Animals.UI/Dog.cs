@@ -1,18 +1,18 @@
-namespace Animals.UI
+namespace Animals.library
 {
     public class Dog
     {
 
-        internal string Noise = "bark!";
+        public string Noise = "bark!";
 
-        internal void GoTo(string location)
+        public void GoTo(string location)
         {
             System.Console.WriteLine("Walking to " + location);
 
             System.Console.WriteLine($"Walking to {location}");
         }
 
-        internal void MakeNoise()
+        public void MakeNoise()
         {
             System.Console.WriteLine(Noise);
         }
