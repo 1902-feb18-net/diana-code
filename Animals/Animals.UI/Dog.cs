@@ -12,7 +12,8 @@ namespace Animals.library
         //use properties(these) instead of getters and setters (best prazctice in C#)
         private string Name
         {
-            get{
+            get
+            {
                 return _name;
             }
             set
